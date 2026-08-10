@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Python & Virtual Environment
+__pycache__/
+*.pyc
+venv/
+.venv/
+backend/__pycache__/
+backend/routes/__pycache__/
+backend/services/__pycache__/
+
+# Database & Storage
+*.db
+backend/instance/
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Environment & IDE
+.env
+.vscode/
+.idea/
+.DS_Store
